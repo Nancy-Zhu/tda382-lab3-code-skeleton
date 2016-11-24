@@ -22,6 +22,7 @@ initial_state(Nick, GUIName) ->
 pingguopai
 woaini
 xiao
+jj
 %% Connect to server
 handle(St, {connect, Server}) ->
     Data = "hello?",
