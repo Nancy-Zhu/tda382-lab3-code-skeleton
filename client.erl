@@ -23,6 +23,7 @@ pingguopai
 woaini
 xiao
 jj
+mm
 %% Connect to server
 handle(St, {connect, Server}) ->
     Data = "hello?",
