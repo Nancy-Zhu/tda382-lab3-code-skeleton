@@ -18,6 +18,8 @@ initial_state(Nick, GUIName) ->
 %% {reply, Reply, NewState}, where Reply is the reply to be sent to the
 %% requesting process and NewState is the new state of the client.
 
+
+pingguopai
 %% Connect to server
 handle(St, {connect, Server}) ->
     Data = "hello?",
