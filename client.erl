@@ -19,9 +19,7 @@ initial_state(Nick, GUIName) ->
 %% requesting process and NewState is the new state of the client.
 
 
-pingguopai
-woaini
-tt
+mingtianhuigenghaode
 
 
 %% Connect to server
@@ -34,7 +32,7 @@ handle(St, {connect, Server}) ->
     % {reply, ok, St} ;
     {reply, {error, not_implemented, "Not implemented"}, St} ;
 
-%% Disconnect from server
+%% Disconnect from server,duoyude
 handle(St, disconnect) ->
     % {reply, ok, St} ;
     {reply, {error, not_implemented, "Not implemented"}, St} ;
