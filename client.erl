@@ -20,9 +20,9 @@ initial_state(Nick, GUIName) ->
 
 
 mingtianhuigenghaode
+xihuan
 
-
-%% Connect to server
+%% Connect to server,he
 handle(St, {connect, Server}) ->
     Data = "hello?",
     io:fwrite("Client is sending: ~p~n", [Data]),
@@ -32,7 +32,7 @@ handle(St, {connect, Server}) ->
     % {reply, ok, St} ;
     {reply, {error, not_implemented, "Not implemented"}, St} ;
 
-%% Disconnect from server,duoyude
+%% Disconnect from server,buyao
 handle(St, disconnect) ->
     % {reply, ok, St} ;
     {reply, {error, not_implemented, "Not implemented"}, St} ;
