@@ -19,8 +19,10 @@ initial_state(Nick, GUIName) ->
 %% requesting process and NewState is the new state of the client.
 
 
-mingtianhuigenghaode
+
 xihuan
+
+buxihuan
 
 %% Connect to server,he
 handle(St, {connect, Server}) ->
